@@ -1,7 +1,7 @@
 # Custom_Keyboard
 This is a simple example of a custom keyboard android application 
 # Language used
-Kotlin 
+## Kotlin 
 # Mocking tool
-Adobe XD
+## Adobe XD
 
