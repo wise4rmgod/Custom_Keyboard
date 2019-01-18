@@ -21,6 +21,7 @@
         <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+
                 android:orientation="vertical">
             <android.support.design.widget.TextInputLayout
                     android:id="@+id/userIDTextInputLayout"
@@ -37,6 +38,7 @@
                         android:layout_height="wrap_content"
                         android:inputType="textImeMultiLine"
                         android:textAlignment="center"
+                        android:layout_marginBottom="25dp"
                         android:layout_marginTop="10dp"
                         android:hint="Type your words"/>
             </android.support.design.widget.TextInputLayout>
@@ -58,7 +60,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:visibility="visible"
+                    android:visibility="gone"
                     android:orientation="vertical">
                 <LinearLayout
                         android:layout_width="match_parent"
@@ -75,7 +77,7 @@
 
                     <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="250dp"
+                            android:layout_height="280dp"
                             android:layout_marginTop="5dp"
                             android:background="@drawable/keyback"
                             android:orientation="vertical">
@@ -84,74 +86,75 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
+                                android:layout_marginBottom="5dp"
                                 android:orientation="horizontal">
                             <Button
                                     android:id="@+id/a1"
                                     android:layout_width="30dp"
-                                    android:layout_height="40dp"
+                                    android:layout_height="50dp"
                                     android:textColor="@color/white"
                                     android:background="?android:attr/selectableItemBackground"
                                     android:text="1"/>
                             <Button
                                     android:id="@+id/b2"
                                     android:layout_width="30dp"
-                                    android:layout_height="40dp"
+                                    android:layout_height="50dp"
                                     android:textColor="@color/white"
                                     android:background="?android:attr/selectableItemBackground"
                                     android:text="2"/>
                             <Button
                                     android:id="@+id/c3"
                                     android:layout_width="30dp"
-                                    android:layout_height="40dp"
+                                    android:layout_height="50dp"
                                     android:textColor="@color/white"
                                     android:background="?android:attr/selectableItemBackground"
                                     android:text="3"/>
                             <Button
                                     android:id="@+id/d4"
                                     android:layout_width="30dp"
-                                    android:layout_height="30dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="4"/>
                             <Button
                                     android:id="@+id/e5"
                                     android:layout_width="30dp"
-                                    android:layout_height="40dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="5"/>
                             <Button
                                     android:id="@+id/f6"
                                     android:layout_width="30dp"
-                                    android:layout_height="30dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="6"/>
                             <Button
                                     android:id="@+id/g7"
                                     android:layout_width="30dp"
-                                    android:layout_height="30dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="7"/>
                             <Button
                                     android:id="@+id/h8"
                                     android:layout_width="30dp"
-                                    android:layout_height="30dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="8"/>
                             <Button
                                     android:id="@+id/k9"
                                     android:layout_width="30dp"
-                                    android:layout_height="30dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="9"/>
                             <Button
                                     android:id="@+id/l0"
                                     android:layout_width="30dp"
-                                    android:layout_height="30dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="0"/>
@@ -164,74 +167,75 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
+                                android:layout_marginBottom="5dp"
                                 android:orientation="horizontal">
                             <Button
                                     android:id="@+id/q"
                                     android:layout_width="40dp"
-                                    android:layout_height="40dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="Q"/>
                             <Button
                                     android:id="@+id/w"
-                                    android:layout_width="40dp"
-                                    android:layout_height="40dp"
+                                    android:layout_width="35dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="W"/>
                             <Button
                                     android:id="@+id/e"
                                     android:layout_width="45dp"
-                                    android:layout_height="40dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="E"/>
                             <Button
                                     android:id="@+id/r"
                                     android:layout_width="35dp"
-                                    android:layout_height="40dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="R"/>
                             <Button
                                     android:id="@+id/t"
                                     android:layout_width="35dp"
-                                    android:layout_height="40dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="T"/>
                             <Button
                                     android:id="@+id/y"
                                     android:layout_width="35dp"
-                                    android:layout_height="40dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="Y"/>
                             <Button
                                     android:id="@+id/u"
                                     android:layout_width="35dp"
-                                    android:layout_height="40dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="U"/>
                             <Button
                                     android:id="@+id/i"
-                                    android:layout_width="45dp"
-                                    android:layout_height="40dp"
+                                    android:layout_width="35dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="I"/>
                             <Button
                                     android:id="@+id/o"
                                     android:layout_width="35dp"
-                                    android:layout_height="40dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="O"/>
                             <Button
                                     android:id="@+id/p"
                                     android:layout_width="35dp"
-                                    android:layout_height="40dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="P"/>
@@ -241,67 +245,68 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="center"
+                                android:layout_marginBottom="5dp"
                                 android:orientation="horizontal">
                             <Button
                                     android:id="@+id/a"
-                                    android:layout_width="30dp"
-                                    android:layout_height="40dp"
+                                    android:layout_width="35dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="A"/>
                             <Button
                                     android:id="@+id/s"
-                                    android:layout_width="45dp"
-                                    android:layout_height="40dp"
+                                    android:layout_width="35dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="S"/>
                             <Button
                                     android:id="@+id/d"
                                     android:layout_width="35dp"
-                                    android:layout_height="40dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="D"/>
                             <Button
                                     android:id="@+id/f"
                                     android:layout_width="35dp"
-                                    android:layout_height="40dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="F"/>
                             <Button
                                     android:id="@+id/g"
                                     android:layout_width="35dp"
-                                    android:layout_height="40dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="G"/>
                             <Button
                                     android:id="@+id/h"
                                     android:layout_width="35dp"
-                                    android:layout_height="40dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="H"/>
                             <Button
                                     android:id="@+id/j"
                                     android:layout_width="35dp"
-                                    android:layout_height="40dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="J"/>
                             <Button
                                     android:id="@+id/k"
-                                    android:layout_width="45dp"
-                                    android:layout_height="40dp"
+                                    android:layout_width="35dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="K"/>
                             <Button
                                     android:id="@+id/l"
-                                    android:layout_width="30dp"
-                                    android:layout_height="40dp"
+                                    android:layout_width="35dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="L"/>
@@ -321,42 +326,42 @@
                             <Button
                                     android:id="@+id/z"
                                     android:layout_width="35dp"
-                                    android:layout_height="40dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="Z"/>
                             <Button
                                     android:id="@+id/x"
                                     android:layout_width="35dp"
-                                    android:layout_height="40dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="X"/>
                             <Button
                                     android:id="@+id/c"
                                     android:layout_width="35dp"
-                                    android:layout_height="40dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="C"/>
                             <Button
                                     android:id="@+id/v"
                                     android:layout_width="35dp"
-                                    android:layout_height="40dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="V"/>
                             <Button
                                     android:id="@+id/b"
                                     android:layout_width="35dp"
-                                    android:layout_height="40dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="B"/>
                             <Button
                                     android:id="@+id/n"
                                     android:layout_width="35dp"
-                                    android:layout_height="40dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="N"/>
@@ -364,7 +369,7 @@
                             <Button
                                     android:id="@+id/m"
                                     android:layout_width="35dp"
-                                    android:layout_height="40dp"
+                                    android:layout_height="50dp"
                                     android:background="@android:color/transparent"
                                     android:textColor="@color/white"
                                     android:text="M"/>

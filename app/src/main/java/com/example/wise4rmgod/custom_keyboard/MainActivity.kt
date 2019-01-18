@@ -6,6 +6,9 @@ import android.view.View
 import android.view.WindowManager
 import android.view.animation.AnimationUtils
 import kotlinx.android.synthetic.main.activity_main.*
+import android.widget.LinearLayout
+
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -15,9 +18,16 @@ class MainActivity : AppCompatActivity() {
         close.setOnClickListener {
 
             val slidedown = AnimationUtils.loadAnimation(applicationContext,
-                R.anim.abc_fade_out)
+                R.anim.abc_fade_in)
             keyboardparentlayout.startAnimation(slidedown)
             keyboardparentlayout.visibility= View.GONE
+        }
+
+        igboedittext.setOnClickListener {
+            keyboardparentlayout.visibility= View.VISIBLE
+            val slideup = AnimationUtils.loadAnimation(applicationContext,
+                R.anim.abc_fade_in)
+            keyboardparentlayout.startAnimation(slideup)
         }
 
         // method to disable android soft keyboard
@@ -137,41 +147,146 @@ class MainActivity : AppCompatActivity() {
             f.startAnimation(slideup)
             f.textSize= 30F
             igboedittext.append("f")}
-        g.setOnClickListener { igboedittext.append("g") }
-        h.setOnClickListener { igboedittext.append("h") }
-        i.setOnClickListener { igboedittext.append("i") }
-        j.setOnClickListener { igboedittext.append("j") }
-        k.setOnClickListener { igboedittext.append("k") }
-        l.setOnClickListener { igboedittext.append("l") }
-        m.setOnClickListener { igboedittext.append("m") }
-        n.setOnClickListener { igboedittext.append("n") }
+        g.setOnClickListener {
+            val slideup = AnimationUtils.loadAnimation(applicationContext,
+                R.anim.zoom_out)
+            g.startAnimation(slideup)
+            g.textSize= 30F
+            igboedittext.append("g") }
+        h.setOnClickListener {
+            val slideup = AnimationUtils.loadAnimation(applicationContext,
+                R.anim.zoom_out)
+            h.startAnimation(slideup)
+            h.textSize= 30F
+            igboedittext.append("h") }
+        i.setOnClickListener {
+            val slideup = AnimationUtils.loadAnimation(applicationContext,
+                R.anim.zoom_out)
+            i.startAnimation(slideup)
+            i.textSize= 30F
+            igboedittext.append("i") }
+        j.setOnClickListener {
+            val slideup = AnimationUtils.loadAnimation(applicationContext,
+                R.anim.zoom_out)
+            j.startAnimation(slideup)
+            j.textSize= 30F
+            igboedittext.append("j") }
+        k.setOnClickListener {
+            val slideup = AnimationUtils.loadAnimation(applicationContext,
+                R.anim.zoom_out)
+            k.startAnimation(slideup)
+            k.textSize= 30F
+            igboedittext.append("k") }
+        l.setOnClickListener {
+            val slideup = AnimationUtils.loadAnimation(applicationContext,
+                R.anim.zoom_out)
+            l.startAnimation(slideup)
+            l.textSize= 30F
+            igboedittext.append("l") }
+        m.setOnClickListener {
+            val slideup = AnimationUtils.loadAnimation(applicationContext,
+                R.anim.zoom_out)
+            m.startAnimation(slideup)
+            m.textSize= 30F
+            igboedittext.append("m") }
+        n.setOnClickListener {
+            val slideup = AnimationUtils.loadAnimation(applicationContext,
+                R.anim.zoom_out)
+            n.startAnimation(slideup)
+            n.textSize= 30F
+            igboedittext.append("n") }
 
-        o.setOnClickListener { igboedittext.append("o") }
-        p.setOnClickListener { igboedittext.append("p") }
-        r.setOnClickListener { igboedittext.append("r") }
-        s.setOnClickListener { igboedittext.append("s") }
-        t.setOnClickListener { igboedittext.append("t") }
-        u.setOnClickListener { igboedittext.append("u") }
+        o.setOnClickListener {
+            val slideup = AnimationUtils.loadAnimation(applicationContext,
+                R.anim.zoom_out)
+            o.startAnimation(slideup)
+            o.textSize= 30F
+            igboedittext.append("o") }
+        p.setOnClickListener {
+            val slideup = AnimationUtils.loadAnimation(applicationContext,
+                R.anim.zoom_out)
+            p.startAnimation(slideup)
+            p.textSize= 30F
+            igboedittext.append("p") }
+        r.setOnClickListener {
+            val slideup = AnimationUtils.loadAnimation(applicationContext,
+                R.anim.zoom_out)
+            r.startAnimation(slideup)
+            r.textSize= 30F
+            igboedittext.append("r") }
+        s.setOnClickListener {
+            val slideup = AnimationUtils.loadAnimation(applicationContext,
+                R.anim.zoom_out)
+            s.startAnimation(slideup)
+            s.textSize= 30F
+            igboedittext.append("s") }
+        t.setOnClickListener {
+            val slideup = AnimationUtils.loadAnimation(applicationContext,
+                R.anim.zoom_out)
+            t.startAnimation(slideup)
+            t.textSize= 30F
+            igboedittext.append("t") }
+        u.setOnClickListener {
+            val slideup = AnimationUtils.loadAnimation(applicationContext,
+                R.anim.zoom_out)
+            u.startAnimation(slideup)
+            u.textSize= 30F
+            igboedittext.append("u") }
 
-        v.setOnClickListener { igboedittext.append("v")}
-        w.setOnClickListener {igboedittext.append("w")}
-        y.setOnClickListener { igboedittext.append("y")}
-        z.setOnClickListener { igboedittext.append("z") }
-
-
-
-
-
+        v.setOnClickListener {
+            val slideup = AnimationUtils.loadAnimation(applicationContext,
+                R.anim.zoom_out)
+            v.startAnimation(slideup)
+            v.textSize= 30F
+            igboedittext.append("v")}
+        w.setOnClickListener {
+            val slideup = AnimationUtils.loadAnimation(applicationContext,
+                R.anim.zoom_out)
+            w.startAnimation(slideup)
+            w.textSize= 30F
+            igboedittext.append("w")}
+        y.setOnClickListener {
+            val slideup = AnimationUtils.loadAnimation(applicationContext,
+                R.anim.zoom_out)
+            y.startAnimation(slideup)
+            y.textSize= 30F
+            igboedittext.append("y")}
+        z.setOnClickListener {
+            val slideup = AnimationUtils.loadAnimation(applicationContext,
+                R.anim.zoom_out)
+            z.startAnimation(slideup)
+            z.textSize= 30F
+            igboedittext.append("z") }
 
 
 
 
         spacebar.setOnClickListener {
             igboedittext.append(" ")
+            val slideup = AnimationUtils.loadAnimation(applicationContext,
+                R.anim.zoom_out)
+            spacebar.startAnimation(slideup)
+          //  spacebar.textSize= 80F
+            spacebar.layoutParams = LinearLayout.LayoutParams(200, 100)
         }
 
         back.setOnClickListener {
-            igboedittext.text=null
+            val slideup = AnimationUtils.loadAnimation(applicationContext,
+                R.anim.zoom_out)
+            back.startAnimation(slideup)
+            val params = LinearLayout.LayoutParams(50, 60)
+            back.layoutParams = params
+
+            var str =igboedittext.text.toString()
+            if (str.isEmpty()){
+
+            }
+            else {
+                str = str.substring(0, str.length - 1)
+// Now set this Text to your edit text
+                igboedittext.setText(str)
+                //  igboedittext.text=null
+            }
         }
 
 
